@@ -1,0 +1,17 @@
+.section {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.section.-hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url();
+}
