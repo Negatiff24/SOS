@@ -1,7 +1,9 @@
 .title {
 	font-size: 80px;
+	color: var(--c-white);
 }
 
 .subtitle {
 	font-size: 24px;
+	color: var(--c-white);
 }

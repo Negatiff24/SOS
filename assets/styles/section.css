@@ -15,3 +15,11 @@
 	justify-content: space-between;
 	background-image: url(../img/bg1.jpg);
 }
+
+.hero__center {
+	text-align: center;
+}
+
+.scrolldown__link {
+	color: var(--c-white);
+}

@@ -1,7 +1,9 @@
-.title {
-	font-size: 80px;
+.nav {
+	width: 48%;
+	display: flex;
+	justify-content: space-between;
 }
 
-.subtitle {
-	font-size: 24px;
+.nav__link {
+	color: var(--c-white);
 }
