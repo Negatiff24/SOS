@@ -1,0 +1,12 @@
+.btn {
+	display: inline-block;
+	border: none;
+	border-radius: 5px;
+	background: var(--c-yellow-gradient);
+	color: var(--c-black);
+	padding: 20px 15px;
+}
+
+.btn.-hero {
+	margin-top: 20px;
+}

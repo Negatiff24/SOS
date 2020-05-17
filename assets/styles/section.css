@@ -20,6 +20,35 @@
 	text-align: center;
 }
 
+.scrolldown {
+	padding-bottom: 40px;
+	position: relative;
+}
+
+.scrolldown:before {
+	display: block;
+	content: "";
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	border-bottom: 2px solid var(--c-white);
+	border-right: 2px solid var(--c-white);
+	bottom: 30px;
+	left: 30px;
+	transform: rotate(45deg);
+}
+
+.scrolldown:after {
+	display: block;
+	content: "";
+	height: 2px;
+	width: 23px;
+	position: absolute;
+	background-color: var(--c-white);
+	bottom: 38px;
+	left: 27px;
+}
+
 .scrolldown__link {
 	color: var(--c-white);
 }
