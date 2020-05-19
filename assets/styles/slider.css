@@ -1,0 +1,25 @@
+.slider {
+	position: relative;
+	width: 52%;
+}
+
+.slider__img {
+	position: absolute;
+}
+
+.slider__img.-first {
+	width: 450px;
+	top: -120px;
+}
+
+.slider__img.-second {
+	width: 395px;
+	left: 80px;
+	top: -100px;
+}
+
+.slider__img.-third {
+	width: 395px;
+	left: 100px;
+	top: -75px;
+}
