@@ -24,3 +24,21 @@
 	top: 260px;
 	transform: rotate(45deg);
 }
+
+.btn.-next:before {
+	display: block;
+	content: "";
+	position: absolute;
+	height: 27px;
+	width: 2px;
+	background-color: var(--c-white);
+	right: 8px;
+	top: -5px;
+	transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 1039px) {
+	.btn.-next {
+		right: 0;
+	}
+}

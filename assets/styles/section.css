@@ -74,3 +74,10 @@
 	padding-left: 200px;
 	margin-top: 20px;
 }
+
+@media screen and (max-width: 1039px) {
+	.about__text {
+		padding-left: 160px;
+		padding-right: 20px;
+	}
+}
