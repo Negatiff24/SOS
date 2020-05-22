@@ -10,3 +10,17 @@
 .btn.-hero {
 	margin-top: 20px;
 }
+
+.btn.-next {
+	position: absolute;
+	border-top: 2px solid var(--c-white);
+	border-right: 2px solid var(--c-white);
+	border-radius: 0;
+	background: transparent;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	right: 70px;
+	top: 260px;
+	transform: rotate(45deg);
+}

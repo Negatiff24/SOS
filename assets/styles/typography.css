@@ -12,6 +12,26 @@
 	letter-spacing: 3px;
 }
 
+.title.-about {
+	margin-bottom: 60px;
+	position: relative;
+}
+
+.title.-about:before {
+	display: block;
+	content: "";
+	position: absolute;
+	height: 3px;
+	width: 710px;
+	background-color: var(--c-white);
+	bottom: 0px;
+	z-index: 1;
+}
+
+.subtitle.-about {
+	margin-top: 30px;
+}
+
 @media screen and (max-width: 767px) {
 	.title {
 		font-size: 50px;

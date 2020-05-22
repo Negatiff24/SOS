@@ -71,4 +71,6 @@
 
 .about__text {
 	color: var(--c-white);
+	padding-left: 200px;
+	margin-top: 20px;
 }
