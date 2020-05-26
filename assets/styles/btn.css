@@ -37,8 +37,26 @@
 	transform: rotate(-45deg);
 }
 
+.btn.-newsletter {
+	width: 39%;
+	text-align: center;
+}
+
 @media screen and (max-width: 1039px) {
 	.btn.-next {
 		right: 0;
+	}
+}
+
+@media screen and (max-width: 941px) {
+	.btn.-next {
+		right: -50px;
+	}
+}
+
+@media screen and (max-width: 790px) {
+	.btn.-next {
+		right: 25px;
+		top: 150px;
 	}
 }

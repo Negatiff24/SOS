@@ -32,15 +32,48 @@
 	margin-top: 30px;
 }
 
+.title.-system, .subtitle.-system {
+	text-align: center;
+}
+
+.title.-system {
+	margin-bottom: 100px;
+}
+
 @media screen and (max-width: 1039px) {
 	.title.-about:before {
 		width: 530px;
 	}
 }
 
+@media screen and (max-width: 941px) {
+	.title.-about {
+		font-size: 65px;
+	}
+}
+
+@media screen and (max-width: 790px) {
+	.title.-about {
+		font-size: 50px;
+		margin-bottom: 25px;
+	}
+
+	.title.-about:before {
+		width: 320px;
+	}
+
+	.subtitle.-about {
+		font-size: 25px;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.title {
 		font-size: 50px;
+	}
+
+	.title.-system {
+		margin-bottom: 50px;
 	}
 
 	.subtitle {

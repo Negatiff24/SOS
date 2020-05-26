@@ -75,9 +75,162 @@
 	margin-top: 20px;
 }
 
+.section.-features {
+	background-image: url(../img/bg3.png);
+}
+
+.section.-system {
+	background-image: url(../img/bg4.png);
+}
+
+.system__table {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 55%;
+	height: 350px;
+}
+
+.system__cell {
+	width: 50%;
+	padding: 15px;
+}
+
+.system__cell.-first {
+	border: 1px solid #979797;
+}
+
+.system__cell.-second {
+	border: 1px solid #979797;
+	border-left: none;
+}
+
+.system__cell.-third {
+	border-left: 1px solid #979797;
+	border-right: 1px solid #979797;
+}
+
+.system__cell.-fourth {
+	border-right: 1px solid #979797;
+}
+
+.system__cell.-fifth {
+	width: 100%;
+	border: 1px solid #979797;
+}
+
+.cell__title {
+	color: var(--c-yellow);
+}
+
+.cell__text {
+	color: var(--c-white);
+}
+
+.section.-quotes {
+	background-image: url(../img/bg5.png);
+}
+
+.quotes__about {
+	display: flex;
+	justify-content: space-between;
+}
+
+.quotes__left {
+	width: 40%;
+}
+
+.quotes__text {
+	color: var(--c-white);
+	margin: 65px 0 80px 0;
+}
+
+.section.-newsletter {
+	background-color: #0a0a0a;
+}
+
+.newsletter__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.newsletter__right {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 60%;
+}
+
+.newsletter__text {
+	color: var(--c-white);
+	margin: 15px 0;
+}
+
+.newsletter__email {
+	display: flex;
+	justify-content: space-between;
+}
+
+.line {
+	background-color: #1f1f1f;
+	width: 60%;
+	border-radius: 5px;
+	padding: 12px;
+}
+
+.line__your {
+	color: #979797;
+	font-size: 12px;
+}
+
+.line__mail {
+	color: var(--c-yellow);
+}
+
 @media screen and (max-width: 1039px) {
 	.about__text {
 		padding-left: 160px;
 		padding-right: 20px;
+	}
+}
+
+@media screen and (max-width: 941px) {
+	.about__text {
+		padding-left: 100px;
+	}
+}
+
+@media screen and (max-width: 790px) {
+	.content {
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.content__left {
+		width: 100%;
+	}
+
+	.about__text {
+		padding-left: 15px;
+		padding-right: 0
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.system__table {
+		width: 100%;
+	}
+
+	.quotes__about {
+		flex-direction: column;
+	}
+
+	.quotes__left {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.quotes__text {
+		margin: 15px 0 25px 0;
 	}
 }
