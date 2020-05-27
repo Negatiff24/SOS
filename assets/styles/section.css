@@ -154,6 +154,10 @@
 	justify-content: space-between;
 }
 
+.newsletter__img {
+	width: 40%;
+}
+
 .newsletter__right {
 	display: flex;
 	justify-content: center;
@@ -232,5 +236,21 @@
 
 	.quotes__text {
 		margin: 15px 0 25px 0;
+	}
+
+	.section.-newsletter {
+		background-image: url(../img/l_skull.png);
+	}
+
+	.newsletter__img {
+		display: none;
+	}
+
+	.newsletter__right {
+		width: 100%;
+	}
+
+	.newsletter__text, .title.-newsletter, .subtitle.-newsletter {
+		padding-left: 40%;
 	}
 }

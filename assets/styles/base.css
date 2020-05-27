@@ -5,6 +5,10 @@ body, h1, h2, h3, h4, h5, p, a, ul, ol {
 	font-size: 18px;
 }
 
+ol, ul {
+	list-style-type: none;
+}
+
 img {
 	max-width: 100%;
 }
