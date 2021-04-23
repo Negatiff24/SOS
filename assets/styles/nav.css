@@ -1,11 +1,11 @@
 .nav {
-	width: 48%;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
 
 .nav__link {
-	color: var(--c-white);
+	color: black;
 }
 
 @media screen and (max-width: 1023px) {
